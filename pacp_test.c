@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <pcap.h>
-#include "packet_str.h"
+#include "packet_test.h"
 
 void usage() {
-	printf("syntax: pcap-test <interface>\n");
-	printf("sample: pcap-test wlan0\n");
+	printf("syntax: pcap_test <interface>\n");
+	printf("sample: pcap_test wlan0\n");
 }
 
 typedef struct {
